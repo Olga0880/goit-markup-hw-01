@@ -22,6 +22,11 @@ font-weight: 400;
 .link {
 text-decoration: none;
 }
+.link.hover,
+.link.focus {
+    color: #404bbf;
+}
+
 .list {
 list-style: none;
 }
@@ -42,11 +47,12 @@ top: 24px;
 font-family: "Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height: 1,17;
+line-height: 1.17;
 letter-spacing: 0,03em;
 text-transform: uppercase;
 color: #4d5ae5;
 text-decoration: none;
+letter-spacing: 0.03em;
 
 }
 .color-dark {
@@ -76,8 +82,8 @@ color: #404bbf;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
-text-decoration: none;
+color: #2e2f42;
+
 }
 .header-address {
 font-style: normal;
@@ -174,14 +180,9 @@ background-color: #404BBF;
 
 /* Section 2 */
 
-.about-title1 {
+.about-title {
 width: 264px;
 height: 24px;
-position: absolute;
-width: 264px;
-height: 104px;
-left: 156px;
-top: 792px;
 
 font-weight: 500;
 font-size: 20px;
@@ -193,7 +194,7 @@ order: 0;
 flex-grow: 0;
 }
 
-.about-description1 {
+.about-description {
 width: 264px;
 height: 72px;
 font-size: 16px;
@@ -203,64 +204,9 @@ color: #434455;
 flex: none;
 order: 1;
 flex-grow: 0;
-position: absolute;
-width: 264px;
-height: 104px;
-left: 156px;
-top: 824px;
-}
-.about-title2 {
-    position: absolute;
-width: 264px;
-height: 104px;
-left: 444px;
-top: 792px;
-}
-.about-description2 {
-    position: absolute;
-width: 264px;
-height: 104px;
-left: 444px;
-top: 824px;
-line-height: 24px;
-letter-spacing: 0.02em;
+
 }
 
-.about-title3 {
-    position: absolute;
-width: 264px;
-height: 104px;
-left: 732px;
-top: 792px;
-}
-
-.about-description3 {
-    position: absolute;
-    width: 264px;
-    height: 104px;
-    left: 732px;
-    top: 824px;
-    line-height: 24px;
-letter-spacing: 0.02em;
-}
-
-.about-title4 {
-    position: absolute;
-width: 264px;
-height: 104px;
-left: 1020px;
-top: 792px;
-}
-
-.about-description4 {
-    position: absolute;
-width: 264px;
-height: 104px;
-left: 1020px;
-top: 824px;
-line-height: 24px;
-letter-spacing: 0.02em;
-}
 /* Section 3 */
 
 .we-do {
@@ -373,3 +319,7 @@ color: #FFFFFF;
 .color-light {
     color:  #f4f4fd;
 }
+
+
+/* PORTFOLIO */
+
