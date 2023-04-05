@@ -263,7 +263,7 @@ color: #FFFFFF;
 
 }
 .portf-btn:hover , 
-.portf-btn.focus {
+.portf-btn:focus {
    color:  #FFFFFF;
    background-color: #404BBF;
    cursor: pointer;
