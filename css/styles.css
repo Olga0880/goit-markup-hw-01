@@ -3,19 +3,15 @@
     --primary-font: Roboto, sans-serif;
     --secondary-font: Raleway, sans-serif;
     /* Text colors */
-    --main-txt-cl: #555555; 
+    --main-txt-cl:  #434455;  
     --accent-txt-cl:#9747FF; 
 }
 
 body {
 font-family: var(--primary-font);
 font-size: 16px;
-line-height: 1,5;
-letter-spacing: 0,02em;
 color: #434455;
 background-color: #FFFFFF;
-font-style: normal;
-font-weight: 400;
 }
 
 /* Reset */
@@ -40,10 +36,8 @@ font-family: "Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
-letter-spacing: 0,03em;
 text-transform: uppercase;
 color: #4d5ae5;
-text-decoration: none;
 letter-spacing: 0.03em;
 
 }
@@ -54,7 +48,7 @@ letter-spacing: 0.03em;
 .header-list {
 display: flex;
 flex-direction: row;
-align-items: flex-start;
+
 padding: 0px;
 gap: 40px;
 
@@ -148,29 +142,19 @@ background-color: #404BBF;
 /* Section 2 */
 
 .about-title {
-width: 264px;
-height: 24px;
 
 font-weight: 500;
 font-size: 20px;
-line-height: 24px;
+line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
-flex: none;
-order: 0;
-flex-grow: 0;
 }
 
 .about-description {
-width: 264px;
-height: 72px;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-flex: none;
-order: 1;
-flex-grow: 0;
 
 }
 
@@ -205,9 +189,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
 }
-.team-photo {
-    background-color: #FFFFFF;
-}
+
 
 .team-photo-name {
     font-weight: 500;
@@ -227,10 +209,6 @@ color: #2E2F42;
 
 .footer {
    
-width: 1440px;
-height: 312px;
-left: 0px;
-top: 2280px;
 background-color: #2E2F42;
 color: #FFFFFF;
 }
