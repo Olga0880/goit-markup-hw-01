@@ -8,6 +8,7 @@
     --head-txt-cl: #2e2f42; 
     --main-bg-cl: #ffffff;
     --btn-cl: #4d5ae5; 
+    --studio-cl: #F4F4FD; 
 }
 
 body {
@@ -176,7 +177,7 @@ color: var(--head-txt-cl);
 /* Section 4 */
 
 .team {
-    background-color: var(--main-bg-cl);
+    background-color: var(--studio-cl);
 }
 .team-list {
     background-color: var(--main-bg-cl);
@@ -214,7 +215,7 @@ color: var(--head-txt-cl);
 .footer {
    
 background-color: var(--head-txt-cl);
-color: var(--main-bg-cl);
+color: var(--studio-cl);
 }
 .footer-logo {
     font-family: Raleway, sans-serif;
@@ -241,12 +242,12 @@ color: var(--main-bg-cl);
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--btn-cl);
-    background-color: var(--main-bg-cl);
+    background-color: var(--studio-cl);
 
 }
 .portf-btn:hover , 
 .portf-btn:focus {
-   color: var(--main-bg-cl);
+   color: var(--studio-cl);
    background-color: var(--accent-txt-cl);
    cursor: pointer;
 }
