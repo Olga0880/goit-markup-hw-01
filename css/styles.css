@@ -177,7 +177,7 @@ color: var(--head-txt-cl);
 /* Section 4 */
 
 .team {
-    background-color: #F4F4FD;
+    background-color: var(--studio-cl);
 }
 .team-list {
     background-color: var(--main-bg-cl);
@@ -229,7 +229,7 @@ color: #F4F4FD;
 
 }
 .color-light {
-    color: var(--main-bg-cl);
+    color: var(--studio-cl);
 }
 
 
@@ -242,12 +242,12 @@ color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--btn-cl);
-    background-color: #F4F4FD;
+    background-color: var(--main-bg-cl);
 
 }
 .portf-btn:hover , 
 .portf-btn:focus {
-   color: #F4F4FD;
+   color: var(--main-bg-cl);
    background-color: var(--accent-txt-cl);
    cursor: pointer;
 }
