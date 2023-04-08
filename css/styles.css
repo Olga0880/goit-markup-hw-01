@@ -177,7 +177,7 @@ color: var(--head-txt-cl);
 /* Section 4 */
 
 .team {
-    background-color: var(--studio-cl);
+    background-color: #F4F4FD;
 }
 .team-list {
     background-color: var(--main-bg-cl);
@@ -215,7 +215,7 @@ color: var(--head-txt-cl);
 .footer {
    
 background-color: var(--head-txt-cl);
-color: var(--studio-cl);
+color: #F4F4FD;
 }
 .footer-logo {
     font-family: Raleway, sans-serif;
@@ -242,12 +242,12 @@ color: var(--studio-cl);
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--btn-cl);
-    background-color: var(--studio-cl);
+    background-color: #F4F4FD;
 
 }
 .portf-btn:hover , 
 .portf-btn:focus {
-   color: var(--studio-cl);
+   color: #F4F4FD;
    background-color: var(--accent-txt-cl);
    cursor: pointer;
 }
